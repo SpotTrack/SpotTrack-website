@@ -124,6 +124,54 @@
     "submit": "Enviar"
   },
   "footer": {
-    "copyright": "© 2026 SpotTrack. Todos los derechos reservados."
+    "copyright": "© 2026 SpotTrack. Todos los derechos reservados.",
+    "terms": "Términos y Condiciones"
+  },
+  "terms": {
+    "title": "Términos y Condiciones",
+    "updated": "Última actualización: julio de 2026",
+    "intro": "Estos Términos y Condiciones rigen tu acceso y uso de la plataforma de monitoreo IoT para gimnasios de SpotTrack y sus servicios relacionados. Al usar SpotTrack, aceptas quedar sujeto a estos términos.",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los Términos",
+        "body": "Al acceder o utilizar SpotTrack, confirmas que has leído, comprendido y aceptas quedar sujeto a estos Términos y Condiciones, así como a nuestras prácticas de tratamiento de datos."
+      },
+      {
+        "heading": "2. Descripción del Servicio",
+        "body": "SpotTrack ofrece sensores IoT, almacenamiento en la nube y dashboards analíticos que informan en tiempo real el uso y la disponibilidad de los equipos del gimnasio. La disponibilidad y precisión de los datos de telemetría dependen de la correcta instalación y funcionamiento del hardware."
+      },
+      {
+        "heading": "3. Suscripciones y Pagos",
+        "body": "Los planes pagos (Basic, Mid, Platinum) se facturan de forma recurrente mensual a través de nuestro procesador de pagos. Los precios, funciones y ciclos de facturación pueden cambiar con aviso previo. La falta de pago puede resultar en la suspensión del acceso."
+      },
+      {
+        "heading": "4. Responsabilidades del Usuario",
+        "body": "Eres responsable de mantener la confidencialidad de tus credenciales de cuenta y de toda actividad realizada bajo tu cuenta. Aceptas no hacer un mal uso, aplicar ingeniería inversa ni interferir con el hardware o software de la plataforma."
+      },
+      {
+        "heading": "5. Datos y Privacidad",
+        "body": "Los datos de uso de equipos recolectados por los sensores de SpotTrack se almacenan de forma segura y se utilizan exclusivamente para brindar analítica y alertas a tu gimnasio. No vendemos los datos de telemetría de los clientes a terceros."
+      },
+      {
+        "heading": "6. Propiedad Intelectual",
+        "body": "Todo el software, dashboards, marca y documentación relacionados con SpotTrack son propiedad exclusiva de SpotTrack y sus licenciantes."
+      },
+      {
+        "heading": "7. Limitación de Responsabilidad",
+        "body": "SpotTrack se proporciona \"tal cual\". No somos responsables por daños indirectos, tiempo de inactividad de equipos, ni pérdidas derivadas de fallas en los sensores, problemas de conectividad o interrupciones de servicios de terceros."
+      },
+      {
+        "heading": "8. Terminación",
+        "body": "Podemos suspender o dar de baja el acceso a la plataforma por incumplimiento de estos términos. Puedes cancelar tu suscripción en cualquier momento; el acceso permanece activo hasta el final del período de facturación vigente."
+      },
+      {
+        "heading": "9. Cambios a estos Términos",
+        "body": "Podemos actualizar estos Términos y Condiciones periódicamente. El uso continuado de SpotTrack después de que los cambios entren en vigencia constituye la aceptación de los términos revisados."
+      },
+      {
+        "heading": "10. Contacto",
+        "body": "Si tienes preguntas sobre estos Términos y Condiciones, contáctanos a través del formulario de contacto de este sitio."
+      }
+    ]
   }
 }

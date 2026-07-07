@@ -21,4 +21,8 @@
 .cta-default { border: 1px solid #333; color: white; background: transparent; }
 .cta-default:hover { border-color: #f5bc36; color: #f5bc36; transform: translateY(-2px); }
 @media (max-width: 900px) { .pricing-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 600px) { .pricing-grid { grid-template-columns: 1fr; } .popular-card { margin-top: 0; } }
+@media (max-width: 600px) {
+  .pricing-grid { grid-template-columns: 1fr; }
+  .popular-card { margin-top: 0; }
+  .plan-card { height: auto; min-height: 460px; }
+}
