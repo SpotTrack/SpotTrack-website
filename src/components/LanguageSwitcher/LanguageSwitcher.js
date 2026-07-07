@@ -1,6 +1,8 @@
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
 
+const languageNames = { en: 'English', es: 'Español' }
+
 export default {
   name: 'LanguageSwitcher',
   setup() {
@@ -13,6 +15,6 @@ export default {
       currentLang.value = lang
     }
 
-    return { languages, currentLang, switchLang }
+    return { languages, currentLang, languageNames, switchLang }
   }
 }

@@ -1,11 +1,17 @@
 {
+  "common": {
+    "opensInNewTab": "se abre en una pestaña nueva",
+    "close": "Cerrar"
+  },
   "nav": {
     "brand": "SpotTrack",
     "about": "Nosotros",
     "features": "Funciones",
     "pricing": "Precios",
     "login": "Iniciar Sesión",
-    "freeDemo": "Demo Gratis"
+    "freeDemo": "Demo Gratis",
+    "mainNavigation": "Navegación principal",
+    "languageSelector": "Selector de idioma"
   },
   "hero": {
     "headlineStart": "Transforma la gestión de tu",
@@ -105,6 +111,44 @@
       "cta": "Contactar"
     }
   },
+  "register": {
+    "title": "Crea tu cuenta",
+    "subtitle": "Seleccionaste el plan {plan}. Configura tu cuenta para continuar al pago.",
+    "sectionBusiness": "INFORMACIÓN DE EMPRESA",
+    "sectionCredentials": "CREDENCIALES DE CUENTA",
+    "firstName": { "label": "Nombre", "placeholder": "Juan" },
+    "lastName": { "label": "Apellido", "placeholder": "Pérez" },
+    "dni": { "label": "DNI / Documento de identidad", "placeholder": "12345678" },
+    "phoneNumber": { "label": "Número de teléfono", "placeholder": "+51 999 999 999" },
+    "companyName": { "label": "Nombre de empresa", "placeholder": "Mi Gimnasio SAC" },
+    "ruc": { "label": "RUC", "placeholder": "20123456789" },
+    "legalStructure": { "label": "Estructura legal", "placeholder": "Selecciona..." },
+    "legalOptions": ["SA", "SAC", "SRL", "EIRL"],
+    "companyPhone": { "label": "Teléfono de empresa", "placeholder": "+51 01 234 5678" },
+    "companyEmail": { "label": "Email de empresa", "placeholder": "contacto{'@'}migimnasio.com" },
+    "streetAddress": { "label": "Dirección", "placeholder": "Av. Principal 123" },
+    "city": { "label": "Ciudad", "placeholder": "Lima" },
+    "district": { "label": "Distrito", "placeholder": "Miraflores" },
+    "email": { "label": "Correo electrónico", "placeholder": "tu{'@'}email.com" },
+    "password": { "label": "Contraseña", "placeholder": "Mínimo 8 caracteres" },
+    "confirmPassword": { "label": "Confirmar contraseña", "placeholder": "Repite tu contraseña" },
+    "continue": "Continuar a selección de plan",
+    "viewPlans": "¿Quieres revisar los planes? Ver todos los planes",
+    "confirmTitle": "Confirma tu plan",
+    "confirmSubtitle": "Revisa o cambia tu selección antes de pagar.",
+    "back": "← Volver al formulario",
+    "pay": "Ir a pago",
+    "processing": "Procesando...",
+    "errors": {
+      "required": "Este campo es obligatorio",
+      "email": "Ingresa un correo válido",
+      "passwordMin": "Mínimo 8 caracteres",
+      "passwordMatch": "Las contraseñas no coinciden",
+      "dni": "El DNI debe tener 8 dígitos",
+      "ruc": "El RUC debe tener 11 dígitos",
+      "serverGeneric": "Ocurrió un error. Inténtalo nuevamente."
+    }
+  },
   "contact": {
     "title": "Contacto",
     "name": {
@@ -124,6 +168,54 @@
     "submit": "Enviar"
   },
   "footer": {
-    "copyright": "© 2026 SpotTrack. Todos los derechos reservados."
+    "copyright": "© 2026 SpotTrack. Todos los derechos reservados.",
+    "terms": "Términos y Condiciones"
+  },
+  "terms": {
+    "title": "Términos y Condiciones",
+    "updated": "Última actualización: julio de 2026",
+    "intro": "Estos Términos y Condiciones rigen tu acceso y uso de la plataforma de monitoreo IoT para gimnasios de SpotTrack y sus servicios relacionados. Al usar SpotTrack, aceptas quedar sujeto a estos términos.",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los Términos",
+        "body": "Al acceder o utilizar SpotTrack, confirmas que has leído, comprendido y aceptas quedar sujeto a estos Términos y Condiciones, así como a nuestras prácticas de tratamiento de datos."
+      },
+      {
+        "heading": "2. Descripción del Servicio",
+        "body": "SpotTrack ofrece sensores IoT, almacenamiento en la nube y dashboards analíticos que informan en tiempo real el uso y la disponibilidad de los equipos del gimnasio. La disponibilidad y precisión de los datos de telemetría dependen de la correcta instalación y funcionamiento del hardware."
+      },
+      {
+        "heading": "3. Suscripciones y Pagos",
+        "body": "Los planes pagos (Basic, Mid, Platinum) se facturan de forma recurrente mensual a través de nuestro procesador de pagos. Los precios, funciones y ciclos de facturación pueden cambiar con aviso previo. La falta de pago puede resultar en la suspensión del acceso."
+      },
+      {
+        "heading": "4. Responsabilidades del Usuario",
+        "body": "Eres responsable de mantener la confidencialidad de tus credenciales de cuenta y de toda actividad realizada bajo tu cuenta. Aceptas no hacer un mal uso, aplicar ingeniería inversa ni interferir con el hardware o software de la plataforma."
+      },
+      {
+        "heading": "5. Datos y Privacidad",
+        "body": "Los datos de uso de equipos recolectados por los sensores de SpotTrack se almacenan de forma segura y se utilizan exclusivamente para brindar analítica y alertas a tu gimnasio. No vendemos los datos de telemetría de los clientes a terceros."
+      },
+      {
+        "heading": "6. Propiedad Intelectual",
+        "body": "Todo el software, dashboards, marca y documentación relacionados con SpotTrack son propiedad exclusiva de SpotTrack y sus licenciantes."
+      },
+      {
+        "heading": "7. Limitación de Responsabilidad",
+        "body": "SpotTrack se proporciona \"tal cual\". No somos responsables por daños indirectos, tiempo de inactividad de equipos, ni pérdidas derivadas de fallas en los sensores, problemas de conectividad o interrupciones de servicios de terceros."
+      },
+      {
+        "heading": "8. Terminación",
+        "body": "Podemos suspender o dar de baja el acceso a la plataforma por incumplimiento de estos términos. Puedes cancelar tu suscripción en cualquier momento; el acceso permanece activo hasta el final del período de facturación vigente."
+      },
+      {
+        "heading": "9. Cambios a estos Términos",
+        "body": "Podemos actualizar estos Términos y Condiciones periódicamente. El uso continuado de SpotTrack después de que los cambios entren en vigencia constituye la aceptación de los términos revisados."
+      },
+      {
+        "heading": "10. Contacto",
+        "body": "Si tienes preguntas sobre estos Términos y Condiciones, contáctanos a través del formulario de contacto de este sitio."
+      }
+    ]
   }
 }

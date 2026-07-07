@@ -1,11 +1,17 @@
 {
+  "common": {
+    "opensInNewTab": "opens in a new tab",
+    "close": "Close"
+  },
   "nav": {
     "brand": "SpotTrack",
     "about": "About",
     "features": "Features",
     "pricing": "Pricing",
     "login": "Log In",
-    "freeDemo": "Free Demo"
+    "freeDemo": "Free Demo",
+    "mainNavigation": "Main navigation",
+    "languageSelector": "Language selector"
   },
   "hero": {
     "headlineStart": "Transform your",
@@ -105,6 +111,44 @@
       "cta": "Contact Us"
     }
   },
+  "register": {
+    "title": "Create your account",
+    "subtitle": "You selected the {plan} plan. Set up your account to continue to payment.",
+    "sectionBusiness": "BUSINESS INFORMATION",
+    "sectionCredentials": "ACCOUNT CREDENTIALS",
+    "firstName": { "label": "First name", "placeholder": "John" },
+    "lastName": { "label": "Last name", "placeholder": "Doe" },
+    "dni": { "label": "DNI / National ID", "placeholder": "12345678" },
+    "phoneNumber": { "label": "Phone number", "placeholder": "+51 999 999 999" },
+    "companyName": { "label": "Company name", "placeholder": "My Gym SAC" },
+    "ruc": { "label": "RUC", "placeholder": "20123456789" },
+    "legalStructure": { "label": "Legal structure", "placeholder": "Select..." },
+    "legalOptions": ["SA", "SAC", "SRL", "EIRL"],
+    "companyPhone": { "label": "Company phone", "placeholder": "+51 01 234 5678" },
+    "companyEmail": { "label": "Company email", "placeholder": "contact{'@'}mygym.com" },
+    "streetAddress": { "label": "Street address", "placeholder": "123 Main St" },
+    "city": { "label": "City", "placeholder": "Lima" },
+    "district": { "label": "District", "placeholder": "Miraflores" },
+    "email": { "label": "Email address", "placeholder": "you{'@'}email.com" },
+    "password": { "label": "Password", "placeholder": "At least 8 characters" },
+    "confirmPassword": { "label": "Confirm password", "placeholder": "Repeat your password" },
+    "continue": "Continue to plan selection",
+    "viewPlans": "Want to review plans first? View all plans",
+    "confirmTitle": "Confirm your plan",
+    "confirmSubtitle": "Review or change your selection before paying.",
+    "back": "← Back to form",
+    "pay": "Proceed to payment",
+    "processing": "Processing...",
+    "errors": {
+      "required": "This field is required",
+      "email": "Enter a valid email address",
+      "passwordMin": "At least 8 characters required",
+      "passwordMatch": "Passwords do not match",
+      "dni": "DNI must be 8 digits",
+      "ruc": "RUC must be 11 digits",
+      "serverGeneric": "Something went wrong. Please try again."
+    }
+  },
   "contact": {
     "title": "Contact",
     "name": {
@@ -124,6 +168,54 @@
     "submit": "Send"
   },
   "footer": {
-    "copyright": "© 2026 SpotTrack. All rights reserved."
+    "copyright": "© 2026 SpotTrack. All rights reserved.",
+    "terms": "Terms & Conditions"
+  },
+  "terms": {
+    "title": "Terms & Conditions",
+    "updated": "Last updated: July 2026",
+    "intro": "These Terms & Conditions govern your access to and use of SpotTrack's IoT gym monitoring platform and related services. By using SpotTrack, you agree to be bound by these terms.",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "body": "By accessing or using SpotTrack, you confirm that you have read, understood, and agree to be bound by these Terms & Conditions and our data processing practices."
+      },
+      {
+        "heading": "2. Description of Service",
+        "body": "SpotTrack provides IoT sensors, cloud storage, and analytics dashboards that report gym equipment usage and availability in real time. Availability and accuracy of telemetry data depend on the proper installation and functioning of hardware sensors."
+      },
+      {
+        "heading": "3. Subscriptions & Payment",
+        "body": "Paid plans (Basic, Mid, Platinum) are billed on a recurring monthly basis through our payment processor. Prices, features, and billing cycles may change with prior notice. Failure to pay may result in suspension of access."
+      },
+      {
+        "heading": "4. User Responsibilities",
+        "body": "You are responsible for maintaining the confidentiality of your account credentials and for all activity carried out under your account. You agree not to misuse, reverse-engineer, or interfere with the platform's hardware or software."
+      },
+      {
+        "heading": "5. Data & Privacy",
+        "body": "Equipment usage data collected by SpotTrack sensors is stored securely and used exclusively to provide analytics and alerts to your gym. We do not sell client telemetry data to third parties."
+      },
+      {
+        "heading": "6. Intellectual Property",
+        "body": "All software, dashboards, branding, and documentation related to SpotTrack remain the exclusive property of SpotTrack and its licensors."
+      },
+      {
+        "heading": "7. Limitation of Liability",
+        "body": "SpotTrack is provided on an \"as is\" basis. We are not liable for indirect damages, equipment downtime, or losses arising from sensor malfunction, connectivity issues, or third-party service outages."
+      },
+      {
+        "heading": "8. Termination",
+        "body": "We may suspend or terminate access to the platform for violation of these terms. You may cancel your subscription at any time; access remains active until the end of the current billing period."
+      },
+      {
+        "heading": "9. Changes to These Terms",
+        "body": "We may update these Terms & Conditions periodically. Continued use of SpotTrack after changes take effect constitutes acceptance of the revised terms."
+      },
+      {
+        "heading": "10. Contact",
+        "body": "For questions about these Terms & Conditions, please reach out through the contact form on this site."
+      }
+    ]
   }
 }
