@@ -1,11 +1,17 @@
 {
+  "common": {
+    "opensInNewTab": "se abre en una pestaña nueva",
+    "close": "Cerrar"
+  },
   "nav": {
     "brand": "SpotTrack",
     "about": "Nosotros",
     "features": "Funciones",
     "pricing": "Precios",
     "login": "Iniciar Sesión",
-    "freeDemo": "Demo Gratis"
+    "freeDemo": "Demo Gratis",
+    "mainNavigation": "Navegación principal",
+    "languageSelector": "Selector de idioma"
   },
   "hero": {
     "headlineStart": "Transforma la gestión de tu",

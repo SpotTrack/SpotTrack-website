@@ -1,4 +1,4 @@
-import { computed, onMounted, onBeforeUnmount } from 'vue'
+import { ref, computed, onMounted, onBeforeUnmount } from 'vue'
 import { useI18n } from 'vue-i18n'
 
 export default {
@@ -8,6 +8,7 @@ export default {
     const { t, tm } = useI18n({ useScope: 'global' })
 
     const sections = computed(() => tm('terms.sections'))
+    const closeBtnRef = ref(null)
 
     function onClose() {
       emit('close')
@@ -20,6 +21,7 @@ export default {
     onMounted(() => {
       document.addEventListener('keydown', onKeydown)
       document.body.style.overflow = 'hidden'
+      closeBtnRef.value?.focus()
     })
 
     onBeforeUnmount(() => {
@@ -27,6 +29,6 @@ export default {
       document.body.style.overflow = ''
     })
 
-    return { t, sections, onClose }
+    return { t, sections, closeBtnRef, onClose }
   }
 }

@@ -1,9 +1,9 @@
 <template>
   <div class="terms-overlay" @click.self="onClose">
-    <div class="terms-modal" role="dialog" aria-modal="true" :aria-label="t('terms.title')">
+    <div class="terms-modal" role="dialog" aria-modal="true" aria-labelledby="terms-modal-title" tabindex="-1">
       <div class="terms-header">
-        <h2 class="terms-title">{{ t('terms.title') }}</h2>
-        <button type="button" class="terms-close" aria-label="Close" @click="onClose">&times;</button>
+        <h2 id="terms-modal-title" class="terms-title">{{ t('terms.title') }}</h2>
+        <button ref="closeBtnRef" type="button" class="terms-close" :aria-label="t('common.close')" @click="onClose">&times;</button>
       </div>
       <p class="terms-updated">{{ t('terms.updated') }}</p>
       <div class="terms-body">
