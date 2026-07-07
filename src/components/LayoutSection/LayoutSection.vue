@@ -2,6 +2,7 @@
   <main>
     <HeroSection />
     <FeaturesSection />
+    <AboutSection />
     <PricingSection />
     <ContactSection />
     <FooterSection />
