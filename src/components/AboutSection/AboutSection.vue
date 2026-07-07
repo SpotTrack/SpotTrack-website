@@ -1,7 +1,7 @@
 <template>
-  <section class="st-about-section" id="about">
+  <section class="st-about-section" id="about-product">
     <div class="st-container">
-      <h1 class="st-main-title">{{ $t('about.title') }}</h1>
+      <h1 class="st-main-title">{{ $t('about.product.title') }}</h1>
       <p class="st-main-subtitle">{{ $t('about.product.description') }}</p>
 
       <div class="st-video-wrapper">
