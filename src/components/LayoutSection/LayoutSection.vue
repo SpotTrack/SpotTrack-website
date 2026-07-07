@@ -2,6 +2,7 @@
   <main>
     <HeroSection />
     <FeaturesSection />
+    <AboutTeamSection />
     <AboutSection />
     <PricingSection />
     <ContactSection />
