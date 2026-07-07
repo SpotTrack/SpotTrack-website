@@ -6,6 +6,7 @@ export default {
   components: { TermsModal },
   setup() {
     const showTerms = ref(false)
+    const termsBtnRef = ref(null)
 
     function openTerms() {
       showTerms.value = true
@@ -13,8 +14,9 @@ export default {
 
     function closeTerms() {
       showTerms.value = false
+      termsBtnRef.value?.focus()
     }
 
-    return { showTerms, openTerms, closeTerms }
+    return { showTerms, termsBtnRef, openTerms, closeTerms }
   }
 }

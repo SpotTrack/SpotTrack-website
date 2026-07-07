@@ -2,7 +2,7 @@
   <header class="hero-header" :class="{ 'header-visible': headerVisible }">
     <h1 class="title">{{ $t('nav.brand') }}</h1>
 
-    <nav class="hero-navbar" :class="{ 'navbar-visible': navbarVisible }">
+    <nav class="hero-navbar" :class="{ 'navbar-visible': navbarVisible }" :aria-label="$t('nav.mainNavigation')">
       <button
         v-for="(btn, index) in navButtons"
         :key="index"
@@ -16,7 +16,7 @@
       </button>
 
       <div class="login-div">
-        <button class="login-btn" @click="navigateToApp()">{{ $t('nav.login') }}</button>
+        <button class="login-btn" :aria-label="`${$t('nav.login')} (${$t('common.opensInNewTab')})`" @click="navigateToApp()">{{ $t('nav.login') }}</button>
       </div>
     </nav>
 
@@ -25,11 +25,11 @@
     </div>
   </header>
 
-  <section class="hero-section" id="hero" :class="{ 'hero-visible': heroVisible }">
+  <section class="hero-section" id="hero" :class="{ 'hero-visible': heroVisible }" aria-labelledby="hero-title">
     <div class="hero-wrapper">
       <div class="hero-wrapper-info">
-        <div class="particles-overlay"></div>
-        <h1>
+        <div class="particles-overlay" aria-hidden="true"></div>
+        <h1 id="hero-title">
           {{ $t('hero.headlineStart') }}
           <span class="shimmer-text">{{ $t('hero.headlineHighlight') }}</span>
           {{ $t('hero.headlineEnd') }}
@@ -37,7 +37,7 @@
         <p>{{ $t('hero.subheadline') }}</p>
       </div>
 
-      <button class="start-btn" @click="navigateToApp()">{{ $t('hero.cta') }}</button>
+      <button class="start-btn" :aria-label="`${$t('hero.cta')} (${$t('common.opensInNewTab')})`" @click="navigateToApp()">{{ $t('hero.cta') }}</button>
 
       <div class="hero-benefits">
         <h2 v-for="(key, index) in benefitKeys" :key="index">{{ $t(key) }}</h2>

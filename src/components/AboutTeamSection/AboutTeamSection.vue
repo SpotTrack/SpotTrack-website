@@ -1,7 +1,7 @@
 <template>
-  <section class="st-team-section" id="about">
+  <section class="st-team-section" id="about" aria-labelledby="about-team-title">
     <div class="st-container">
-      <h1 class="st-main-title">{{ $t('about.title') }}</h1>
+      <h1 id="about-team-title" class="st-main-title">{{ $t('about.title') }}</h1>
 
       <div class="st-team-grid">
         <div class="st-team-card">
@@ -18,7 +18,7 @@
         <iframe
           class="st-video-frame"
           src="https://www.youtube.com/embed/UFjx_Ni5pV4"
-          title="SpotTrack team video"
+          title="SpotTrack Team Presentation Video"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerpolicy="strict-origin-when-cross-origin"

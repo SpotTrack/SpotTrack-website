@@ -1,13 +1,13 @@
 <template>
-  <section class="st-features-section" id="features">
+  <section class="st-features-section" id="features" aria-labelledby="features-title">
     <div class="st-container">
-      <h1 class="st-main-title">{{ $t('solution.title') }}</h1>
+      <h1 id="features-title" class="st-main-title">{{ $t('solution.title') }}</h1>
       <p class="st-main-subtitle">{{ $t('solution.subtitle') }}</p>
 
       <div class="st-grid-container">
         <div v-for="feature in features" :key="feature.key" class="st-card">
 
-          <svg class="st-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg class="st-icon" aria-hidden="true" focusable="false" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <template v-if="feature.icon === 'sensor'">
               <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
             </template>

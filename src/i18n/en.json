@@ -1,11 +1,17 @@
 {
+  "common": {
+    "opensInNewTab": "opens in a new tab",
+    "close": "Close"
+  },
   "nav": {
     "brand": "SpotTrack",
     "about": "About",
     "features": "Features",
     "pricing": "Pricing",
     "login": "Log In",
-    "freeDemo": "Free Demo"
+    "freeDemo": "Free Demo",
+    "mainNavigation": "Main navigation",
+    "languageSelector": "Language selector"
   },
   "hero": {
     "headlineStart": "Transform your",
