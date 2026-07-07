@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  backendUrl: 'REPLACE_WITH_BACKEND_URL'
+  backendUrl: 'https://spottrack-platform-aw.azurewebsites.net'
 }
