@@ -12,7 +12,7 @@ export default {
     const btnStates = ref([false, false, false, false])
 
     const navButtons = [
-      { label: 'nav.about', target: 'hero' },
+      { label: 'nav.about', target: 'about' },
       { label: 'nav.features', target: 'features' },
       { label: 'nav.pricing', target: 'pricing' },
       { label: 'contact.title', target: 'contacto' }
