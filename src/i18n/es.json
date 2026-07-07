@@ -111,6 +111,44 @@
       "cta": "Contactar"
     }
   },
+  "register": {
+    "title": "Crea tu cuenta",
+    "subtitle": "Seleccionaste el plan {plan}. Configura tu cuenta para continuar al pago.",
+    "sectionBusiness": "INFORMACIÓN DE EMPRESA",
+    "sectionCredentials": "CREDENCIALES DE CUENTA",
+    "firstName": { "label": "Nombre", "placeholder": "Juan" },
+    "lastName": { "label": "Apellido", "placeholder": "Pérez" },
+    "dni": { "label": "DNI / Documento de identidad", "placeholder": "12345678" },
+    "phoneNumber": { "label": "Número de teléfono", "placeholder": "+51 999 999 999" },
+    "companyName": { "label": "Nombre de empresa", "placeholder": "Mi Gimnasio SAC" },
+    "ruc": { "label": "RUC", "placeholder": "20123456789" },
+    "legalStructure": { "label": "Estructura legal", "placeholder": "Selecciona..." },
+    "legalOptions": ["SA", "SAC", "SRL", "EIRL"],
+    "companyPhone": { "label": "Teléfono de empresa", "placeholder": "+51 01 234 5678" },
+    "companyEmail": { "label": "Email de empresa", "placeholder": "contacto@migimnasio.com" },
+    "streetAddress": { "label": "Dirección", "placeholder": "Av. Principal 123" },
+    "city": { "label": "Ciudad", "placeholder": "Lima" },
+    "district": { "label": "Distrito", "placeholder": "Miraflores" },
+    "email": { "label": "Correo electrónico", "placeholder": "tu{'@'}email.com" },
+    "password": { "label": "Contraseña", "placeholder": "Mínimo 8 caracteres" },
+    "confirmPassword": { "label": "Confirmar contraseña", "placeholder": "Repite tu contraseña" },
+    "continue": "Continuar a selección de plan",
+    "viewPlans": "¿Quieres revisar los planes? Ver todos los planes",
+    "confirmTitle": "Confirma tu plan",
+    "confirmSubtitle": "Revisa o cambia tu selección antes de pagar.",
+    "back": "← Volver al formulario",
+    "pay": "Ir a pago",
+    "processing": "Procesando...",
+    "errors": {
+      "required": "Este campo es obligatorio",
+      "email": "Ingresa un correo válido",
+      "passwordMin": "Mínimo 8 caracteres",
+      "passwordMatch": "Las contraseñas no coinciden",
+      "dni": "El DNI debe tener 8 dígitos",
+      "ruc": "El RUC debe tener 11 dígitos",
+      "serverGeneric": "Ocurrió un error. Inténtalo nuevamente."
+    }
+  },
   "contact": {
     "title": "Contacto",
     "name": {

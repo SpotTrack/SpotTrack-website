@@ -11,11 +11,18 @@
       </video>
       <div class="section-bg-overlay" aria-hidden="true"></div>
 
-      <PricingSection />
+      <PricingSection @buy="openModal" />
       <ContactSection />
     </div>
 
     <FooterSection />
+
+    <RegisterModal
+      v-if="showModal"
+      :initial-plan="selectedPlan"
+      @close="closeModal"
+      @view-plans="goToPlans"
+    />
   </main>
 </template>
 

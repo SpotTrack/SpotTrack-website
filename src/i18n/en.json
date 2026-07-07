@@ -111,6 +111,44 @@
       "cta": "Contact Us"
     }
   },
+  "register": {
+    "title": "Create your account",
+    "subtitle": "You selected the {plan} plan. Set up your account to continue to payment.",
+    "sectionBusiness": "BUSINESS INFORMATION",
+    "sectionCredentials": "ACCOUNT CREDENTIALS",
+    "firstName": { "label": "First name", "placeholder": "John" },
+    "lastName": { "label": "Last name", "placeholder": "Doe" },
+    "dni": { "label": "DNI / National ID", "placeholder": "12345678" },
+    "phoneNumber": { "label": "Phone number", "placeholder": "+51 999 999 999" },
+    "companyName": { "label": "Company name", "placeholder": "My Gym SAC" },
+    "ruc": { "label": "RUC", "placeholder": "20123456789" },
+    "legalStructure": { "label": "Legal structure", "placeholder": "Select..." },
+    "legalOptions": ["SA", "SAC", "SRL", "EIRL"],
+    "companyPhone": { "label": "Company phone", "placeholder": "+51 01 234 5678" },
+    "companyEmail": { "label": "Company email", "placeholder": "contact@mygym.com" },
+    "streetAddress": { "label": "Street address", "placeholder": "123 Main St" },
+    "city": { "label": "City", "placeholder": "Lima" },
+    "district": { "label": "District", "placeholder": "Miraflores" },
+    "email": { "label": "Email address", "placeholder": "you{'@'}email.com" },
+    "password": { "label": "Password", "placeholder": "At least 8 characters" },
+    "confirmPassword": { "label": "Confirm password", "placeholder": "Repeat your password" },
+    "continue": "Continue to plan selection",
+    "viewPlans": "Want to review plans first? View all plans",
+    "confirmTitle": "Confirm your plan",
+    "confirmSubtitle": "Review or change your selection before paying.",
+    "back": "← Back to form",
+    "pay": "Proceed to payment",
+    "processing": "Processing...",
+    "errors": {
+      "required": "This field is required",
+      "email": "Enter a valid email address",
+      "passwordMin": "At least 8 characters required",
+      "passwordMatch": "Passwords do not match",
+      "dni": "DNI must be 8 digits",
+      "ruc": "RUC must be 11 digits",
+      "serverGeneric": "Something went wrong. Please try again."
+    }
+  },
   "contact": {
     "title": "Contact",
     "name": {
