@@ -15,7 +15,7 @@ export default {
   },
   emits: ['close', 'view-plans'],
   setup(props, { emit }) {
-    const { t } = useI18n({ useScope: 'global' })
+    const { t, tm } = useI18n({ useScope: 'global' })
 
     // ── Step state ──
     const step = ref('form') // 'form' | 'confirm'
@@ -127,7 +127,7 @@ export default {
     onBeforeUnmount(() => document.removeEventListener('keydown', onKeydown))
 
     return {
-      t,
+      t, tm,
       step, selectedPlan, plans,
       firstName, lastName, dni, phoneNumber,
       companyName, ruc, legalStructure, companyPhone, companyEmail,

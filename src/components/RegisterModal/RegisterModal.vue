@@ -87,7 +87,7 @@
                   class="form-input" :class="{ 'input-error': submitted && errors.legalStructure }"
                 >
                   <option value="" disabled>{{ t('register.legalStructure.placeholder') }}</option>
-                  <option v-for="opt in t('register.legalOptions')" :key="opt" :value="opt">{{ opt }}</option>
+                  <option v-for="opt in tm('register.legalOptions')" :key="opt" :value="opt">{{ opt }}</option>
                 </select>
                 <span v-if="submitted && errors.legalStructure" class="field-error">{{ errors.legalStructure }}</span>
               </div>
