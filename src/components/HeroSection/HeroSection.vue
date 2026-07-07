@@ -26,6 +26,11 @@
   </header>
 
   <section class="hero-section" id="hero" :class="{ 'hero-visible': heroVisible }" aria-labelledby="hero-title">
+    <video class="hero-bg-video" autoplay muted loop playsinline aria-hidden="true">
+      <source src="/fondo-landing.mp4" type="video/mp4" />
+    </video>
+    <div class="hero-overlay" aria-hidden="true"></div>
+
     <div class="hero-wrapper">
       <div class="hero-wrapper-info">
         <div class="particles-overlay" aria-hidden="true"></div>
