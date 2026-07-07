@@ -1,9 +1,10 @@
-.pricing-section { background: #121212; padding: 80px 12px; font-family: 'Istok Web', sans-serif; }
+.pricing-section { position: relative; z-index: 1; padding: 80px 12px; font-family: 'Istok Web', sans-serif; }
 .pricing-title { color: white; font-size: 36px; font-weight: 700; text-align: center; margin-bottom: 48px; }
 .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 1200px; margin: 0 auto; align-items: start; }
-.plan-card { display: grid; grid-template-rows: 1fr auto; background: #1e1e1e; border: 1px solid #333; border-radius: 12px; padding: 25px; position: relative; color: white; width: 100%; height: 500px; transition: transform 0.3s ease; }
-.plan-card:hover { transform: translateY(-4px); }
+.plan-card { display: grid; grid-template-rows: 1fr auto; background: #1e1e1e; border: 1px solid #333; border-radius: 12px; padding: 25px; position: relative; color: white; width: 100%; height: 500px; transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; }
+.plan-card:hover { transform: translateY(-6px); border-color: #f5bc36; box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5), 0 0 22px rgba(245, 188, 54, 0.25); }
 .popular-card { border-color: #f5bc36; box-shadow: 0 10px 15px rgba(245,188,54,0.2), 0 4px 6px rgba(245,188,54,0.2); margin-top: -16px; }
+.popular-card:hover { box-shadow: 0 16px 32px rgba(245, 188, 54, 0.35), 0 4px 6px rgba(245, 188, 54, 0.25); }
 .popular-badge { position: absolute; top: -16px; left: 50%; transform: translateX(-50%); background: #f5bc36; color: black; font-size: 14px; font-weight: 700; padding: 4px 16px; border-radius: 999px; white-space: nowrap; }
 .card-header { display: flex; flex-direction: column; gap: 8px; margin-bottom: 24px; }
 .plan-name { color: white; font-size: 24px; font-weight: 700; padding-top: 16px; }

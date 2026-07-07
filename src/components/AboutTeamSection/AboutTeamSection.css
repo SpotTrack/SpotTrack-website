@@ -31,12 +31,13 @@
   border-radius: 12px;
   padding: 25px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .st-team-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  transform: translateY(-6px);
+  border-color: #f7b731;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.55), 0 0 22px rgba(247, 183, 49, 0.25);
 }
 
 .st-team-card-title {
