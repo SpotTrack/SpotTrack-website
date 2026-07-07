@@ -125,7 +125,7 @@
     "legalStructure": { "label": "Legal structure", "placeholder": "Select..." },
     "legalOptions": ["SA", "SAC", "SRL", "EIRL"],
     "companyPhone": { "label": "Company phone", "placeholder": "+51 01 234 5678" },
-    "companyEmail": { "label": "Company email", "placeholder": "contact@mygym.com" },
+    "companyEmail": { "label": "Company email", "placeholder": "contact{'@'}mygym.com" },
     "streetAddress": { "label": "Street address", "placeholder": "123 Main St" },
     "city": { "label": "City", "placeholder": "Lima" },
     "district": { "label": "District", "placeholder": "Miraflores" },

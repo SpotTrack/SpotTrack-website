@@ -125,7 +125,7 @@
     "legalStructure": { "label": "Estructura legal", "placeholder": "Selecciona..." },
     "legalOptions": ["SA", "SAC", "SRL", "EIRL"],
     "companyPhone": { "label": "Teléfono de empresa", "placeholder": "+51 01 234 5678" },
-    "companyEmail": { "label": "Email de empresa", "placeholder": "contacto@migimnasio.com" },
+    "companyEmail": { "label": "Email de empresa", "placeholder": "contacto{'@'}migimnasio.com" },
     "streetAddress": { "label": "Dirección", "placeholder": "Av. Principal 123" },
     "city": { "label": "Ciudad", "placeholder": "Lima" },
     "district": { "label": "Distrito", "placeholder": "Miraflores" },
